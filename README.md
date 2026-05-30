@@ -4,7 +4,7 @@ Synaptron (Signal Domain) ​Overview: An EMG-based gesture recognition system t
 
 Tech Stack: Surface EMG sensors and microprocessors like Arduino/Esp32.
 
-## 🔷 Project Overview
+##  Project Overview
 
 Human muscles generate small electrical signals during contraction, known as Electromyography (EMG) signals.
 
@@ -20,7 +20,7 @@ These gestures are mapped to coordinated finger movements of the prosthetic hand
 
 ---
 
-## 🔷 Hardware Components
+##  Hardware Components
 
 ### Sensors
 - 3 × Surface EMG Sensors (Muscle Sensor v3)
@@ -38,7 +38,7 @@ These gestures are mapped to coordinated finger movements of the prosthetic hand
 
 ---
 
-## 🔷 Sensor Placement
+##  Sensor Placement
 
 Three sensors are placed on distinct forearm muscle groups:
 
@@ -50,7 +50,7 @@ Three sensors are placed on distinct forearm muscle groups:
 
 ---
 
-## 🔷 Methodology
+##  Methodology
 
 ### 1. Signal Acquisition  
 EMG signals are acquired as analog voltages from muscle activity and sampled at **1000 Hz** using a microcontroller ADC. This satisfies the Nyquist requirement for EMG signals (20–450 Hz).
@@ -123,7 +123,7 @@ The microcontroller converts incoming commands into servo angles (0°–180°), 
 
 ---
 
-## 🔷 How to Run
+##  How to Run
 
 1. Upload Arduino code from the `/arduino` folder  
 2. Connect EMG sensors to the microcontroller  
