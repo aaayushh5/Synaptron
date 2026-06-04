@@ -26,7 +26,7 @@ These gestures are mapped to coordinated finger movements of the prosthetic hand
 - 3 × Surface EMG Sensors (Muscle Sensor v3)
 
 ### Microcontroller
-- Arduino Uno / Raspberry Pi Pico / ESP32
+- Arduino Uno / Raspberry Pi Pico / ESP32 / STM32(blue pil)
 
 ### Actuators
 - 5 × Servo Motors
